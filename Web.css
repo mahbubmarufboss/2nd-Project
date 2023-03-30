@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{ text-decoration: none;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    
+}
+
+.logo a{
+    font-size: 50px;
+    color: rgb(2, 12, 34);
+    font-weight: bold;
+    }
+
+.searcharea{
+position: fixed ;
+top: 50px ;
+right: 90px ;
+width: 170px ;
+height: 45px ;
+background-color: rgb(255, 255, 255) ;
+display: flex ;
+justify-content: center ;
+align-items: center ;
+border-radius:10% 10% 10% 10% / 50% 50% 50% 50% ;
+box-shadow: 2px 2px 30px rgb(226, 226, 226) ;
+box-sizing: border-box ;
+z-index: 1 ;
+border: 1px rgb(237, 240, 243) solid ;
+}
+
+.searchbox input{
+width: 70px ;
+height: 20px ;
+border: none;
+outline: none;
+background-color: transparent;
+color: black;
+font-size: 1rem;
+padding: 0px 10px;
+}
+.searchbox input::placeholder{
+    color: black;
+    font-weight: 400px;
+    font-size: 1rem;
+    font-family: poppins ;
+}
+
+/*part-1 end*/
+
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    transform: translate(-15%, -50%);
+}
+
+.section1 img{
+    height: 300px;
+}
+
+.section1button{
+    position: absolute;
+    left: 90%;
+    top: 60%;
+    transform: translate(-90%, -50%);
+}
+h1, h2 {
+    font-size: 60px;
+    font-family: roboto;
+    margin: 0px;
+    line-height: 70px;
+    text-shadow: 2px 2px 10px grey;
+    letter-spacing: 3px;
+}
+span{
+   color: rgb(91, 9, 224);
+   font-family: roboto;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(44, 6, 116);
+    transition: 0.5s;
+    height: 41px;
+    width: 151px;
+}
+
+/*part-2 end*/
+.iconarea a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    font-size: 25px;  
+}
+.iconarea{
+    margin-left: 25px;
+    top: 35%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 40px rgb(206, 204, 204);
+    position: fixed;
+    padding: 3px;
+    z-index: 1;
+}
+.iconarea a{
+    color: black;
+}
+
+.iconarea a .fa-facebook:hover{
+color: rgb(7, 98, 235);
+}
+.iconarea a .fa-twitter:hover{
+color: rgb(78, 185, 247);
+}
+
+.iconarea a .fa-instagram:hover{
+color: rgb(241, 50, 50);
+}
+.iconarea a .fa-youtube:hover{
+color: red;
+}
+
+/*part-3 end (side icon) */
+h3{
+    font-size: 35px;
+    font-family: roboto;
+    text-align: center;
+}
+.productsection{
+    width: 80%;
+    background-color: rgb(228, 226, 226) ;
+    box-shadow: 2px 2px 40px grey ;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px ;
+    margin-top: 50px;
+}
+
+.product{
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap ;
+    margin: 10px 0px ;
+    width: 100% ;
+}
+
+.productbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.productbox img{
+    height: 250px;
+    width: 250px;
+}
+
+.productbox p{
+    color: grey;
+}
+
+.productbox a{
+    color: black;
+    font-family: poppins;
+    font-size: 1rem;
+}
+
+.Buybtn{
+position: absolute;
+width: 140px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:calibri;
+border-radius: 20px;
+left: 50%;
+bottom: -30px;
+transform: translateX(-50%);
+background: linear-gradient(120deg, #6b60ec 20%, #a166f4);
+color: #FFFFFF;
+display: none;
+animation: fade 0.2s;
+}
+.productbox:hover  .Buybtn{
+    display: flex;
+}
+
+.productbox:hover{
+    box-shadow: 2px 2px 30px grey;
+    background-color: white;
+}
+/*part-4 and part-6 end*/
+h4{
+    font-size: 50px;
+    font-family: roboto;
+}
+h5{
+    font-size: 30px;
+    margin: 5px 0px;
+}
+.About{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;  
+}
+.AboutBox{
+    width: 40%;
+    font-family: monospace;
+}
+.sideimage1{
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+p{
+    color: gray;
+    margin-top: 5px;
+}
+h6{
+    font-size: 30px;
+    font-family: roboto;
+    text-align: center;
+}
+/*part-5 end*/
+.Copyright{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    margin-top: 50px;
+}
+.notificationbutton{
+    background-color: black;
+    border-radius:10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 7px;
+    color: white;
+    font-size: 13px;
+   margin-top: 1px;
+}
+input{
+    width:300px;
+    height: 6px;
+    border-radius: 20px;
+    border: none ;
+    outline: none ;
+    padding: 10px;
+    box-shadow: none;
+}
+.Notification{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+   align-items: center;
+}
+.sendbox{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    height: fit-content ;
+    width: fit-content ;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px gray;
+
+}
